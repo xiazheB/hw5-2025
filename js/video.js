@@ -16,7 +16,6 @@ window.addEventListener("load", function() {
 	var volumeSpan = document.querySelector("#volume");
 
 	video.volume = slider.value / 100;
-    volumeSpan.innerHTML = slider.value + "%";
 
 document.querySelector("#play").addEventListener("click", function() {
  	console.log("Play Video");
